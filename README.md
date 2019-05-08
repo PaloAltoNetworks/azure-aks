@@ -3,5 +3,7 @@ Palo Alto Networks now provides templates to help you deploy an Azure Kubernetes
 
 
 History
+
 Version 1.0 - May 2019
+
 The initial release of version 1.0 is provided as a community supported, i.e. best effort, release. You can consider this as an open beta to introduce new features and collect feedback for improving the generally available release that will be officially supported.
