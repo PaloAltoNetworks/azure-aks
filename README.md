@@ -1,6 +1,5 @@
 Palo Alto Networks now provides templates to help you deploy an Azure Kubernetes Service (AKS) Cluster in a Azure VNET. Traffic going in and out of the AKS clusters can be protected by the VM-Series firewalls. Security Policies can be applied on Kubernetes services for inbound traffic by leveraging Dynamic Address groups in Panorama. The solution works in conjunction with [Azure AutoScaling feature](https://github.com/PaloAltoNetworks/azure-autoscaling) which allows you to deploy an auto-scaling tier of VM-Series firewalls using several native Azure services. The template allows you to deploy the AKS cluster in one of the spoke VNET's in the auto scaling solution.
 
-Topology: 
 ![alt text](https://github.com/PaloAltoNetworks/azure-aks/blob/master/AKS-pic.png "Logo Title Text 1")
 
 
