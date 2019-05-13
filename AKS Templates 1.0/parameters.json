@@ -1,0 +1,66 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "clusterName": {
+            "value": "CLUSTER-NAME"
+        },
+        "location": {
+            "value": "LOCATION"
+        },
+        "dnsPrefix": {
+            "value": "PREFIX"
+        },
+        "agentCount": {
+            "value": 3
+        },
+        "agentVMSize": {
+            "value": "Standard_DS2_v2"
+        },
+        "servicePrincipalClientId": {
+            "value": "CLIENTID"
+        },
+        "servicePrincipalClientSecret": {
+            "value": "CLIENTSECRET"
+        },
+        "kubernetesVersion": {
+            "value": "VERSION"
+        },
+        "enableRBAC": {
+            "value": false
+        },
+        "vnetSubnetCidr": {
+            "value": "10.240.0.0/16"
+        },
+        "vnetCidr": {
+            "value": "10.0.0.0/8"
+        },
+        "vnetName": {
+            "value": "VNETNAME"
+        },
+        "vnetSubnetName": {
+            "value": "SUBNETNAME"
+        },
+        "serviceCidr": {
+            "value": "10.0.0.0/16"
+        },
+        "dnsServiceIP": {
+            "value": "10.0.0.10"
+        },
+        "dockerBridgeCidr": {
+            "value": "172.17.0.1/16"
+        },
+        "inboundFirewallResourceGroupName": {
+            "value": "RESOURCE-GROUP"
+        },
+        "inboundFirewallVnetName": {
+            "value": "FIREWALL-VNET-NAME"
+        },
+        "roleNameGuid": {
+            "value": "GUID"
+        },
+        "principalId": {
+            "value": "PRINCIPALID"
+        }
+    }
+}
